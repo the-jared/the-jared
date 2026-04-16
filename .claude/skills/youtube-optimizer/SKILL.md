@@ -38,6 +38,8 @@ Trigger on: "youtube", "video title", "thumbnail", "youtube SEO", "content calen
 | `/yt:analytics` | How to read your YouTube analytics and what to fix |
 | `/yt:collab {niche}` | Find and execute collaboration opportunities |
 | `/yt:workflow` | Sustainable production workflow with batching and burnout prevention |
+| `/yt:cleanup` | Channel cleanup audit: what to keep, unlist, retitle, and replaylist |
+| `/yt:pivot {new niche}` | Full niche pivot plan: phase schedule, content sorting, channel page rebuild |
 
 ---
 
@@ -846,6 +848,72 @@ Sunday:    Community post (preview of next video)
 - [ ] Analyzed top 10% vs bottom 10% of recent videos
 - [ ] Reviewed retention graphs for exact drop-off points
 - [ ] Maintained sustainable production pace (not burning out)
+
+---
+
+## CHANNEL CLEANUP & NICHE PIVOT
+
+When a channel needs to pivot (new niche, new brand, or cleaning up a scattered topic model), follow this systematic process.
+
+### When to Pivot
+- Algorithm doesn't know who your audience is (mixed topic model)
+- New videos seeded to subscribers who came for different content → low CTR → contracted distribution
+- Channel page confuses new visitors (they can't describe your channel in one sentence)
+- You've identified a stronger niche but have legacy content from a different era
+
+### The Cleanup Framework
+
+**Step 1: Audit every video.** Export full video list with titles and view counts. Categorize each video by topic cluster and identify which clusters align with the new niche.
+
+**Step 2: Sort into three buckets:**
+
+| Bucket | Criteria | Action |
+|--------|----------|--------|
+| **Keep + Promote** | Aligns with new niche OR >5K views (search cash cow) | Move to featured playlists |
+| **Keep + Bury** | Doesn't align but has decent views (1K-5K) | Keep public but remove from playlists/featured sections |
+| **Unlist** | Doesn't align AND <1K views | Set to Unlisted |
+
+**Step 3: Retitle keepers** to match new brand style (see Title Rules).
+
+**Step 4: Rebuild playlists** from scratch. Delete all old playlists. Create new ones aligned with content pillars.
+
+**Step 5: Update channel page:**
+- Featured video (for non-subscribers) = your best niche-aligned video
+- Section 1-3 = your core content pillar playlists
+- Push legacy content (airport guides, old travel) to bottom sections
+
+**Step 6: Update channel description and banner** to reflect new niche.
+
+**Do all steps in one sitting** so the algorithm recalculates from the clean state.
+
+### Unlisting vs. Deleting
+- **Unlist**: Hidden from channel page and search, but URL still works. Views/hours preserved. Can re-list anytime. **Always prefer this.**
+- **Delete**: Permanent. Views and watch hours lost forever. Only delete if content is embarrassing or harmful.
+- **Never delete videos over 1K views** — you may want them back in Phase 3 expansion.
+
+### Title Style for Documentary/Story Channels
+When pivoting from vlog style to documentary style:
+
+| Vlog Style (avoid) | Documentary Style (use) |
+|--------------------|------------------------|
+| ALL CAPS EVERY OTHER WORD | One CAPS word for emphasis |
+| 🇯🇵🎿🔥✨ emoji spam | Zero emojis |
+| Pipe separators ( \| ) | Colons or parentheticals |
+| "FIRST IMPRESSIONS" | Specific curiosity hook |
+| "BEST things to do" | Story-driven or superlative |
+| Location dumping in title | Lead with hook, location in parenthetical |
+
+### Why Japan Content Failed on a Mixed Channel (Case Study)
+A channel with 8K subs posted 15 Japan videos after building audience from airport/India content. Results:
+
+| Video Type | Views | Why |
+|-----------|-------|-----|
+| Tokyo search content (itinerary, cost) | 4K-13K | High TAM search terms found audience despite subscriber mismatch |
+| Cultural curiosity (Geishas, Skiing) | 7K-17K | Strong curiosity gap overcame seed test |
+| Low-TAM locations (Wakayama, Koyasan) | 132-572 | Nobody searches these + wrong audience seeded |
+| Generic vlogs (Kyoto budget, Nara) | 330-535 | Saturated topics + can't compete against bigger channels |
+
+**Lesson:** On a mixed-audience channel, only videos with massive search TAM or extremely strong curiosity gaps can overcome the subscriber mismatch problem. The solution isn't better Japan content — it's fixing the audience through channel cleanup + consistent niche focus.
 
 ---
 
