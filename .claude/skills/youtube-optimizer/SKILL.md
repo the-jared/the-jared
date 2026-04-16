@@ -1,25 +1,27 @@
 ---
 name: youtube-optimizer
-description: YouTube channel optimizer built from MrBeast's leaked handbook, Paddy Galloway's consulting frameworks, Todd Beaupre's algorithm insights, and case studies from creators who grew from 0 to 1M+. Generates titles, thumbnails, scripts, calendars, and audits. Use when working on YouTube content strategy, video packaging, or channel growth.
+description: Complete YouTube channel operating system built from MrBeast's leaked handbook, Paddy Galloway's consulting frameworks, Todd Beaupre's algorithm insights, Veritasium's viral engineering, and case studies from creators who grew from 0 to 1M+. Covers niche definition, packaging, scripting, analytics, monetization, operations, Shorts strategy, and channel audits. Use when working on YouTube content strategy, video packaging, channel growth, or any YouTube-related task.
 ---
 
-# YouTube Channel Optimizer
+# YouTube Channel Operating System
 
 Built from the specific tactical knowledge of:
 - **MrBeast's leaked 36-page production handbook** (the A/B/C player framework, 70% retention target, re-engagement spectacles, the 50-thumbnail process)
 - **Paddy Galloway's consulting frameworks** (CCN framework, TAM test, 30/5 time allocation gap, 6-question filter, Glance test)
 - **Todd Beaupre / YouTube's Growth Team** (5 separate recommendation systems, satisfaction-weighted discovery, Quality Click Ratio, the impression funnel)
-- **Case studies**: Yes Theory (0→9.7M), Lost LeBlanc (0→2.2M), Kara & Nate (0→4.4M), Ali Abdaal (0→6M), Drew Binsky (0→6.8M), Sarah Fay (0→119K via one Short)
+- **Veritasium (Derek Muller)** — PhD on science video effectiveness, curiosity gap engineering, counterintuitive hook design
+- **Case studies**: Yes Theory (0→9.7M), Lost LeBlanc (0→2.2M), Kara & Nate (0→4.4M), Ali Abdaal (0→6M), Drew Binsky (0→6.8M), Sarah Fay (0→119K via one Short), MKBHD (100 videos at 72 subs → 19M+)
 
 ## When to Activate
 
-Trigger on: "youtube", "video title", "thumbnail", "youtube SEO", "content calendar", "upload schedule", "video ideas", "channel audit", "channel review", "subscriber growth", "video script", "hook", "video description", "A/B test", "CTR", "click-through rate", "/yt"
+Trigger on: "youtube", "video title", "thumbnail", "youtube SEO", "content calendar", "upload schedule", "video ideas", "channel audit", "channel review", "subscriber growth", "video script", "hook", "video description", "A/B test", "CTR", "click-through rate", "niche", "monetization", "sponsorship", "brand deal", "shorts strategy", "retention", "analytics", "/yt"
 
 ## Commands
 
 | Command | What It Does |
 |---------|-------------|
-| `/yt:title {topic}` | Generate 10 optimized title variants ranked by predicted CTR |
+| `/yt:niche {interests}` | Define and validate a YouTube niche using the 5-filter framework |
+| `/yt:title {topic}` | Generate 10+ optimized title variants ranked by predicted CTR |
 | `/yt:package {topic}` | Full packaging: title + thumbnail concept + hook + description + tags |
 | `/yt:script {topic}` | Video script outline with MrBeast retention architecture |
 | `/yt:calendar {weeks}` | Content calendar for N weeks with the 80/20 experimentation split |
@@ -27,9 +29,82 @@ Trigger on: "youtube", "video title", "thumbnail", "youtube SEO", "content calen
 | `/yt:seo {title}` | Description, tags, hashtags, chapters optimized for search |
 | `/yt:ab {title}` | 3 A/B test variants (title + thumbnail) following MrBeast's single-variable method |
 | `/yt:shorts {video}` | 3-5 Shorts using Colin & Samir's Stop-Hook-Payoff method |
-| `/yt:diagnose {video}` | Why did this video fail? (4-step diagnostic from Galloway) |
+| `/yt:diagnose {video}` | Why did this video fail? (5-step diagnostic from Galloway) |
 | `/yt:reddit {video}` | Reddit cross-promotion strategy |
 | `/yt:compete {niche}` | Competitive landscape analysis with TAM ceiling test |
+| `/yt:monetize` | Revenue stack analysis — AdSense + sponsorships + products + affiliates |
+| `/yt:analytics` | How to read your YouTube analytics and what to fix |
+| `/yt:collab {niche}` | Find and execute collaboration opportunities |
+| `/yt:workflow` | Sustainable production workflow with batching and burnout prevention |
+
+---
+
+## NICHE DEFINITION & VALIDATION
+
+**Channels with clearly defined niches grow 3-4x faster than generalists.** Without a clear niche, YouTube doesn't know who to show your videos to, and viewers don't know why they should subscribe.
+
+### The 5-Filter Niche Framework
+
+Every viable YouTube niche must pass ALL five filters:
+
+| Filter | Test | Kill Signal |
+|--------|------|-------------|
+| **1. Passion** | Can you make 100+ videos about this without getting bored? | If you need to "force" content, it's wrong |
+| **2. Demand** | Are people actively searching for this on YouTube? | YouTube autocomplete shows zero suggestions |
+| **3. Competition gap** | Is there space you can own? | 5+ established channels already dominating |
+| **4. TAM ceiling** | Can individual videos in this niche hit 100K+ views? | Top videos in niche max out at <50K |
+| **5. Monetization** | Can you make money here? (ads, sponsors, products) | CPM below $3 AND no sponsorship pathway |
+
+### How to Validate (Step by Step)
+
+1. **YouTube autocomplete test**: Type your topic into YouTube search. Does it autocomplete? Do the suggestions show variety? More suggestions = more demand.
+2. **View ceiling scan**: Search your topic, filter by long-form, sort by view count. What's the ceiling? If the top videos have millions of views, the TAM is proven.
+3. **Competition quality check**: Watch the top 5 videos. Are they good? If existing content is mediocre, that's your opening. If it's excellent, you need a differentiated angle.
+4. **The "only I can make this" test**: What unique perspective, access, location, or expertise do you bring that existing creators don't?
+5. **RPM reality check**: High-RPM niches (finance $30+, tech $12-18, travel $10) can sustain smaller audiences. Low-RPM niches (gaming $3-6, entertainment $6-12) need massive scale.
+
+### Niche vs. Broad: The Expansion Path
+
+**Start narrow. Expand later.** Every successful creator followed this arc:
+
+```
+Phase 1 (0-10K): Laser niche — own ONE topic completely
+Phase 2 (10K-100K): Adjacent expansion — add 2-3 related content pillars
+Phase 3 (100K+): Personality-driven — your audience follows YOU, not just the topic
+```
+
+- **Ali Abdaal**: Exam tips → productivity → personal development → "Ali Abdaal does anything"
+- **MKBHD**: Phone reviews → all tech → tech + culture
+- **Kara & Nate**: Budget travel → 100-country journey → lifestyle
+
+### Content Pillars (The Hero-Hub-Help Framework)
+
+Structure every channel around three content types:
+
+| Type | Purpose | % of Content | Example |
+|------|---------|-------------|---------|
+| **Help** | Answers searches, brings new viewers | 60% | "How to ski in China for $80/day" |
+| **Hub** | Regular series for subscribers | 25% | "Skiing Unexpected Countries" series |
+| **Hero** | Big, ambitious, shareable content | 15% | "I Visited China's $1 Billion Ski City" |
+
+### The 70/20/10 Content Mix
+
+- **70%** proven formats your audience loves (your core content pillar)
+- **20%** trending topics within your niche (algorithm-friendly experiments)
+- **10%** wild experiments (new formats, adjacent topics)
+
+### CPM Rates by Niche (2026)
+
+| Niche | CPM Range | RPM Reality |
+|-------|-----------|-------------|
+| Finance/Insurance | $15-45 | Highest paying, hardest to grow |
+| Legal/Business | $10-35 | High CPM but narrow audience |
+| Technology | $8-25 | Strong sponsors + affiliate potential |
+| Health/Fitness | $8-15 | Supplement/app sponsors pay well |
+| Travel/Adventure | $8-12 | Low-medium CPM but strong sponsor/affiliate potential |
+| Education | $5-12 | Course upsell is the real money |
+| Entertainment | $6-12 | Needs massive scale |
+| Gaming | $3-8 | Lowest CPM, highest competition |
 
 ---
 
@@ -55,7 +130,9 @@ YouTube moved from optimizing for engagement to **viewer satisfaction**:
 | **Satisfaction (surveys + inferred)** | ~15% | **~35%** |
 | Return sessions (7-day revisit) | ~10% | ~15% |
 
-**Quality Click Ratio (QCR):** YouTube now divides satisfied viewers by total clicks. High CTR + low retention = clickbait detection = active demotion. Better to hold 70% of viewers for 6 minutes than 30% for 10 minutes.
+**What "satisfaction" actually means:** YouTube now collects millions of post-watch survey responses asking viewers whether a video was worth their time. They also track: repeat viewing, session continuation (did the viewer keep watching YouTube after your video?), likes, "Not Interested" clicks, and comment sentiment.
+
+**Quality Click Ratio (QCR):** YouTube divides satisfied viewers by total clicks. High CTR + low retention = clickbait detection = active demotion. Better to hold 70% of viewers for 6 minutes than 30% for 10 minutes. A shorter video that leaves viewers satisfied outperforms a longer video that viewers abandon.
 
 ### How YouTube Tests New Videos (Impression Funnel)
 1. **Seed test**: Shown to a small slice of your existing audience
@@ -68,13 +145,15 @@ YouTube moved from optimizing for engagement to **viewer satisfaction**:
 - YouTube gives a **"welcome boost"** on first few videos to gather data
 - First ~30 focused videos teach the algorithm what your channel IS
 - Traffic should evolve: 80% Search → gradually more Browse/Suggested as algorithm learns your audience
+- **Niche consistency matters**: The algorithm builds a "topic model" of your channel. Jumping between unrelated topics confuses it.
 
 ### Shorts vs. Long-Form (Fully Decoupled Late 2025)
 - Separate recommendation engines — poor Shorts don't hurt long-form
-- Shorts: target **75%+ view rate** (viewed vs. swiped). Below 50% = hook failure
+- Shorts: target **75%+ completion rate** (viewed vs. swiped). Below 50% = hook failure
 - Any playback = a view; each loop/replay = additional view
 - Channels combining both formats grow **~41% faster**
 - Travel niche: Shorts account for **79% of travel video views** in 2025
+- YouTube Shorts now surpass **200 billion daily views** globally
 
 ---
 
@@ -87,6 +166,7 @@ YouTube moved from optimizing for engagement to **viewer satisfaction**:
   - "I Spent" loses to "I Survived"
 - Design title **BEFORE filming**. If you can't create a compelling title+thumbnail, scrap the idea entirely.
 - Intrigue words boost CTR. Numbers look better bigger ($10,000 > $5,000 — he literally negotiated brand deals for better titles).
+- He changes titles post-publish if CTR drops below ~8-10%. Anything below 5% CTR is considered a failure.
 
 ### From Paddy Galloway
 - **Maximum 55 characters** (under 50 ideal)
@@ -95,6 +175,12 @@ YouTube moved from optimizing for engagement to **viewer satisfaction**:
 - The CCN test: Does this title appeal to Core fans, Casual viewers, AND New discoverers?
 - Before/After: "I photographed the Milky Way" → "Photographing the Milky Way in 10 minutes, 1 hour, and 24 hours"
 
+### From Veritasium (Derek Muller)
+- **Counterintuitive hooks** massively outperform straightforward explanations
+- Engineer a **curiosity gap**: pose a question or make a claim that the viewer's intuition says is wrong
+- **Discomfort correlates with engagement** — when viewers feel their assumptions challenged, they watch longer
+- Clickable titles and thumbnails are the ONLY way to get impressions — they are the only way to go viral
+
 ### Title Structure Rules (Data-Backed)
 - **First 45 characters = the hook** (mobile truncation)
 - **Target keyword in first 5 words** (search ranking)
@@ -102,6 +188,7 @@ YouTube moved from optimizing for engagement to **viewer satisfaction**:
 - Include **one CAPS word** (visual emphasis — more than one looks spammy)
 - Add a **parenthetical** at end: (Full Tour), (You Won't Expect This) — +38% CTR
 - Use **"I" and "you"** — personal pronouns lift CTR
+- **Never use emojis in titles** — they signal amateur, waste characters, and don't rank in search
 
 ### Power Formulas (Ranked)
 
@@ -111,6 +198,7 @@ YouTube moved from optimizing for engagement to **viewer satisfaction**:
 | **Personal Discovery** | "I [Verb]ed [Location] and [Outcome]" | Travel, reviews |
 | **Curiosity Gap** | "Why Everyone is Suddenly [Doing X] in [Place]" | Trend explainers |
 | **Hidden Truth** | "The [Place] You Will NEVER See in [Source]" | Myth-busting |
+| **Paradox** | "[Place] Built [X] With NO [Y]" | Counterintuitive facts |
 | **Comparison** | "[A] vs [B] — Which is ACTUALLY Better?" | Head-to-head |
 | **Stair-Step** | "I [Did X] for $1, $100, and $10,000" | Escalating stakes |
 | **Superlative** | "The World's [Largest/Cheapest/Most Dangerous] [X]" | Scale, records |
@@ -121,8 +209,17 @@ YouTube moved from optimizing for engagement to **viewer satisfaction**:
 ### Words That HURT CTR
 - "My trip to...", "Visiting...", "A day in..." (generic, no curiosity gap)
 - "Amazing", "Beautiful", "Incredible" (overused, zero information)
-- Emoji overload (1 max in title)
+- Emoji overload (never in title)
 - Puns or wordplay (confuses at a glance)
+- "NOT what I expected" (overused in 2025-2026, especially for China/travel content)
+
+### A/B Testing Titles
+- **Change ONE variable at a time** (MrBeast's rule)
+- **Phase 1**: Test 2 titles with the SAME thumbnail → learn which title wins
+- **Phase 2**: Take winning title, test 3 thumbnail variants → learn which visual wins
+- Never test title AND thumbnail simultaneously — you learn nothing
+- Run each test for **48 hours** minimum before declaring a winner
+- Save rejected titles for future videos — they're not bad, just wrong for this one
 
 ---
 
@@ -150,8 +247,16 @@ YouTube moved from optimizing for engagement to **viewer satisfaction**:
 - An unfamiliar or unbelievable object
 - Tension and open loops
 - Visual cliffhangers
+- **Contradiction between thumbnail and title** (e.g., gorgeous snow + "FAKE?" text)
 
-### Thumbnail Formulas for Travel/Ski
+### Thumbnail Text Rules
+- Thumbnail text should either **amplify** the title's hook OR **add** information the title doesn't have
+- Never **duplicate** the title's words on the thumbnail
+- Never have thumbnail text **compete** with a different hook than the title is running
+- No flags, logos, or branding elements — they waste focal points
+- **One word or short phrase** is almost always enough
+
+### Thumbnail Formulas
 
 | Type | Layout | When to Use |
 |------|--------|-------------|
@@ -160,7 +265,7 @@ YouTube moved from optimizing for engagement to **viewer satisfaction**:
 | **Before/After** | Split frame + transformation + time label | Construction, seasonal |
 | **Price Tag** | Bold price number + location visual + "$X/DAY" | Budget content |
 | **VS Split** | Two locations side-by-side + "VS" center | Comparison videos |
-| **Map/Route** | Stylized map + route + flag + destination | Journeys, road trips |
+| **Contradiction** | Beautiful/normal scene + one word questioning reality | Myth-busting, hidden truth |
 
 ### Design Specs
 - **Font:** Bold sans-serif, readable at 160x90px (mobile size)
@@ -225,6 +330,13 @@ Target: **70% retention rate** (his benchmark). Industry "very good" threshold: 
 | 10-20 min | 35-45% |
 | 15-30 min | 30-45% (50% = exceptional) |
 
+### Chapter Titles as Mini Hooks
+Every chapter title is a searchable phrase and potential "Key Moments" entry in YouTube search. Treat each one like a mini title:
+- Include specific numbers, times, or prices
+- Create curiosity gaps within each chapter name
+- Never use generic labels ("Introduction", "Conclusion")
+- Each chapter should make sense as a standalone search result
+
 ---
 
 ## IDEA GENERATION & VALIDATION
@@ -235,6 +347,7 @@ Target: **70% retention rate** (his benchmark). Industry "very good" threshold: 
 - Weekly team brainstorming: each person brings 5 concepts, no criticism during initial pitches
 - **The Kill Test:** If a compelling thumbnail cannot be designed, the idea dies
 - Canceled projects documented with extracted lessons
+- Looks for "obsession" in his team — values people who watch 50+ hours of YouTube weekly
 
 ### Paddy Galloway's 6-Question Filter
 Before greenlighting any video:
@@ -287,6 +400,85 @@ Top creators spend **30% of production time** on ideation and packaging (titles,
 - **30%** Actual content
 
 The consensus is clear: **spend radically more time on packaging than you think is reasonable.**
+
+---
+
+## YOUTUBE ANALYTICS: WHAT TO TRACK & HOW TO READ IT
+
+### The Performance Triangle
+Three metrics form the foundation: **CTR + Watch Time + Retention**. Everything else is secondary.
+
+### How to Read Retention Graphs
+
+| Pattern | What It Means | Fix |
+|---------|--------------|-----|
+| Steep drop in first 30 seconds | Hook failed — title/thumbnail promise not confirmed fast enough | Restructure opening to match title promise immediately |
+| Gradual decline throughout | Normal and healthy — good pacing | Nothing. This is what success looks like. |
+| Cliff-drop at specific timestamp | Problematic section — tangent, info dump, or energy change | Cut or restructure that section |
+| Flat line through most of video | Exceptional pacing holding attention | Study this video and replicate the structure |
+| Spike at a specific point | Viewers rewinding to rewatch a moment | This is your re-engagement spectacle — make more content like this moment |
+
+### Review Cadence
+- **72 hours** after upload: first meaningful data (algorithm has tested and decided)
+- **7 days**: stable picture of performance
+- **30 days**: final performance snapshot
+- **Every 10 videos**: compare top 10% vs bottom 10% for patterns — this is your editorial compass
+
+### Key Metrics & Benchmarks
+
+| Metric | What It Tells You | Good | Excellent |
+|--------|-------------------|------|-----------|
+| CTR | Is your packaging compelling? | 4-7% | 8%+ |
+| AVD (Avg View Duration) | Is your content holding attention? | 50% of length | 65%+ |
+| First-minute retention | Is your hook working? | 45%+ | 65%+ |
+| Subscriber conversion | Are viewers committing? | 2% | 5%+ |
+| Return viewer rate | Are you building an audience? | 10%+ | 25%+ |
+| Like-to-view ratio | Emotional resonance | 4-8% | 8%+ |
+| New vs returning split | Are you reaching new people? | 50/50 | 60% new / 40% returning |
+
+### Traffic Source Analysis
+
+| Source | What It Means | Action |
+|--------|--------------|--------|
+| Mostly Search | Your SEO works but packaging isn't driving Browse/Suggested | Improve titles for broader appeal |
+| Mostly Browse | Algorithm is pushing you to Home feeds | Your packaging is strong — keep this formula |
+| Mostly Suggested | You're riding alongside other creators' content | You're in the right topic cluster |
+| Mostly Subscribers | Only your existing audience sees you | Packaging isn't compelling enough for algorithm to expand |
+| Mostly External | Traffic from Reddit, social, etc. | Good for initial boost, but need to convert to YouTube-native traffic |
+
+---
+
+## SHORTS STRATEGY (2026)
+
+### How the Shorts Algorithm Works
+- **Completion rate is the #1 signal** — did they watch to the end or swipe away?
+- Each Short gets ONE algorithmic push (24-48 hours) then is replaced
+- Separate recommendation engine from long-form — poor Shorts don't hurt your main content
+- A 45-second Short watched to completion beats a 10-minute video watched for 2 minutes in the Shorts model
+
+### The Stop-Hook-Payoff Method (Colin & Samir)
+1. **Stop**: Visual or audio pattern interrupt that freezes the scroll (first 1-2 seconds)
+2. **Hook**: Immediate promise of value or curiosity
+3. **Payoff**: Deliver within the runtime
+
+### Shorts Best Practices
+
+| Factor | Recommendation |
+|--------|---------------|
+| Length | 15-30 seconds for highest completion rates (shorter > longer) |
+| Frequency | 3+ per week minimum — each gets one push, more frequency = more distribution |
+| Completion target | 75%+ (80-90% = top performer) |
+| Loopability | Design the ending to flow back into the beginning for replay loops |
+| From long-form | Extract 2-3 Shorts from each long-form video |
+| Standalone | Also create original Shorts — they can be discovery machines |
+| Cross-platform | Repurpose to TikTok + Instagram Reels simultaneously |
+| Comments | Pin a comment linking to the full video |
+| Text on screen | YES for Shorts (unlike thumbnails) — many watch without sound |
+
+### Shorts That Drive Long-Form Growth
+- Shorts create **awareness**, long-form completes **conversion**
+- Best performing bridge: Short shows a jaw-dropping moment → pinned comment says "full video explains everything"
+- Don't put your best content in Shorts — tease it. The payoff lives in the long-form.
 
 ---
 
@@ -344,6 +536,120 @@ The consensus is clear: **spend radically more time on packaging than you think 
 
 ---
 
+## MONETIZATION STACK
+
+**The creators earning meaningful income are stacking 3-4 revenue streams, not relying on AdSense alone.** Creators earning real money in year one are selling something — their own product, an affiliate offer, or a sponsorship they actively sought.
+
+### Revenue Streams (Ranked by Potential)
+
+| Stream | When to Start | Revenue Potential | Notes |
+|--------|--------------|-------------------|-------|
+| **AdSense** | After YPP (500 subs + 3K hours or 3M Shorts views) | $2-45 per 1K views (niche dependent) | Passive but low for small channels |
+| **Sponsorships** | 5K+ subscribers | $500-10K+ per video | Highest ROI for most creators |
+| **Affiliate links** | Day 1 | 5-15% commission | Equipment, booking links, gear |
+| **Digital products** | After 10K+ subs | 90%+ margin, infinite scale | Courses, guides, presets, templates |
+| **Memberships** | After building community | $2-25/month per member | Requires consistent exclusive content |
+| **Merchandise** | After brand identity established | Varies | Don't start too early — nobody buys merch from unknowns |
+| **Content licensing** | When you have unique footage | Per-use fees | Stock footage, media licensing |
+| **Super Chat/Thanks** | After YPP | Small but adds up | Best for live stream creators |
+
+### Sponsorship Negotiation Framework
+
+**Pricing formula:** Average views per video × your CPM rate = base price
+
+| Channel Size | Typical Rate |
+|-------------|-------------|
+| 10K-50K subs (nano) | $500-$2,000/video |
+| 50K-500K subs (micro) | $2,000-$10,000/video |
+| 500K-1M subs | $10,000-$25,000/video |
+| 1M+ subs | $25,000+ |
+
+**Negotiation rules:**
+- Never say your number first. Ask: "What budget are you working with?"
+- Counter 20-30% higher with engagement data to justify
+- **Usage rights add 20-50%** to base rate
+- **90-day exclusivity can double the rate**
+- Negotiate revision limits, payment terms, and approval process — not just price
+- If engagement rate is 5%+, you can charge premium rates regardless of subscriber count
+
+---
+
+## COMMUNITY & ENGAGEMENT
+
+### Community Tab Strategy
+- Post **2-3 community posts between each upload** (Galloway's rule)
+- **Polls** generate the most engagement (easy to click)
+- **Image polls** outperform text-only polls
+- Post when your audience is most active (check YouTube Analytics → Audience tab)
+- End every post with a question to drive comments
+- Use community posts to **tease upcoming videos**, **poll for video ideas**, and **share behind-the-scenes**
+
+### Comment Strategy (First 2 Hours)
+- **Reply to every comment in the first 2 hours** after upload — this signals active engagement to the algorithm
+- Pin a comment with a question to drive discussion
+- Heart comments to encourage more engagement
+- The first 2 hours of engagement heavily influence the algorithm's expansion decision
+
+### Collaboration Strategy
+YouTube's Collaboration feature (2025+) puts your video in collaborators' subscription feeds:
+- **Find collaborators**: Search your niche, check comments on similar videos, join creator communities
+- **Niche alignment**: Collaborate with creators in similar or complementary niches
+- **Size matching**: Aim for channels within 0.5x-3x your subscriber count
+- **Recurring collabs** build audience cross-pollination over time
+- Up to 5 creators per collaboration
+
+---
+
+## CROSS-PLATFORM DISTRIBUTION
+
+| Platform | Strategy | ROI |
+|----------|---------|-----|
+| **Reddit** | Native content in niche subreddits. Build karma first. Link in comments only when asked. 90% value / 10% promotion. | Highest for niche content |
+| **TikTok** | Repurpose every Short. New accounts get more reach than YouTube. | High for discovery |
+| **Instagram Reels** | Same Shorts content. Lower conversion but builds personal brand. | Medium |
+| **X/Twitter** | Threads about observations + embed video at end. | Medium for discussion |
+| **Email list** | Build from Day 1. Own your audience. YouTube can't take this away. | Highest long-term value |
+
+### Reddit Best Practices
+- Build karma first — comment helpfully in communities for weeks before posting your content
+- Genre-specific subreddits > general promotion subs (100 genuinely interested viewers > 10,000 random)
+- Post native content (images, text, clips) — not YouTube links
+- Reddit users check your history. If it's all self-promotion, you're done.
+- Post to Reddit 24-48 hours AFTER YouTube upload — never same day
+
+---
+
+## PRODUCTION WORKFLOW & SUSTAINABILITY
+
+### Content Batching
+Batching reduces burnout by grouping similar tasks:
+
+```
+Week 1: Planning batch (research, scripting, title/thumbnail for 3-4 videos)
+Week 2: Filming batch (shoot all 3-4 videos in one block)
+Week 3: Editing batch (edit all videos, schedule uploads)
+Week 4: Buffer week (community, analytics review, or rest)
+```
+
+- **Setup cost is high**: Getting camera, lighting, audio right takes 20 minutes regardless of whether you film 1 or 3 videos. Batch to amortize.
+- **Build a 2-4 video buffer** ahead of your publish schedule — enough runway for a sick week, travel, or creative slump
+- The tried-and-true strategy: **3 months creating, 1 month recharging**
+
+### Upload Schedule
+- **Best days**: Thursday or Friday, 3-5 PM in your audience's time zone
+- **Best alternative**: Wednesday afternoon or Saturday 9-11 AM
+- **Upload 2-3 hours before peak viewing** to give the algorithm time to index
+- **Consistency matters more than timing** — same day/time each week teaches both the algorithm and your audience when to expect content
+
+### Burnout Prevention
+- Set a **sustainable cadence** you can maintain for 2+ years, not a sprint pace
+- **Quality > quantity**: 1 excellent video/week beats 3 mediocre ones
+- Build systems (templates, checklists, batching) to reduce decision fatigue
+- Take planned breaks — channels with back catalog survive breaks; burnout kills channels permanently
+- **Study YouTube 4 hours/week** (Galloway's rule) — treat it as part of the job, not extra
+
+---
+
 ## GROWTH PATTERNS FROM CASE STUDIES
 
 ### The Universal Pattern
@@ -362,6 +668,7 @@ Every successful creator followed this arc:
 | Lost LeBlanc | ~2 years | ~1 year | Viral elephant photo + cinematic upgrade |
 | Drew Binsky | <1 year | ~2 years | North Korea video (10M in 2 days) + 197-country goal |
 | Sarah Fay | <1 year | — | One Short hit 61M views with 40+ videos as back catalog |
+| MKBHD | ~8 years | ~2 years | 100 videos at 72 subs → consistency + production quality compounding |
 
 ### What Changed for Each
 - **Kara & Nate**: Built-in narrative (100 countries) gave subscribers reason to follow the journey
@@ -369,6 +676,7 @@ Every successful creator followed this arc:
 - **Ali Abdaal**: Pre-planned titles before filming, shared 99% free, diversified to courses
 - **Drew Binsky**: Timed content to geopolitical window (North Korea access ending)
 - **Sarah Fay**: 40 "invisible" videos built a library that converted Short viewers into subscribers
+- **MKBHD**: Consistency and production quality compounding over years. Tech review CPMs $15-30+ range.
 
 ---
 
@@ -398,9 +706,9 @@ Sunday:    Community post (preview of next video)
 ```
 
 ### Content Mix
-- **60%** Search-optimized guides and reviews (evergreen)
-- **25%** Trend/curiosity content (algorithm-friendly)
-- **15%** Personal adventure stories (brand-building)
+- **60%** Search-optimized guides and reviews (evergreen — Help content)
+- **25%** Trend/curiosity content (algorithm-friendly — Hero content)
+- **15%** Personal adventure stories (brand-building — Hub content)
 
 ### MrBeast's Format Rotation Rule
 **Never repeat the same format back-to-back.** "Channels reusing formats for years always die." Multiple different videos between format repeats.
@@ -416,7 +724,7 @@ Sunday:    Community post (preview of next video)
 {CTA: Subscribe, watch related video}
 
 [Timestamps/Chapters:]
-00:00 {Chapter name}
+00:00 {Chapter name — treat as mini title with curiosity gap}
 ...
 
 [Body — 200-500 words:]
@@ -427,28 +735,21 @@ Sunday:    Community post (preview of next video)
 [Links section:]
 {Social media, affiliate links, booking links}
 
-[Tags line:]
-#{hashtag1} #{hashtag2} #{hashtag3}
+[Hashtags — exactly 3:]
+#{primary} #{secondary} #{tertiary}
 ```
 
 ### Tag Strategy
 - 15-25 tags per video
 - 3-5 broad + 5-10 specific + 3-5 long-tail
+- First tag = exact title keyword
 - Include: location, activity, country, variations, common misspellings
+- Include nearby/related location names (people searching for ANY resort in the area should find you)
 
----
-
-## SHORTS: STOP-HOOK-PAYOFF (Colin & Samir)
-
-1. **Stop**: Visual or audio pattern interrupt that freezes the scroll (first 1-2 seconds)
-2. **Hook**: Immediate promise of value or curiosity
-3. **Payoff**: Deliver within the runtime
-
-- Target **75%+ completion rate** (80-90% = top performer)
-- Each loop/replay counts as an additional view
-- Shares carry **exceptional weight** for Shorts virality
-- Pin a comment linking to the full video
-- 2-3 Shorts per long-form video, repurposed to TikTok + Reels
+### Location & Recording Date
+- **Location tag**: Use the most specific location YouTube's database recognizes (district/city level)
+- **Recording date**: Use actual filming date — recency signals freshness
+- Don't tag a broad location (country level) — too much competition, no benefit
 
 ---
 
@@ -462,6 +763,14 @@ Sunday:    Community post (preview of next video)
 - [ ] Shorts completion rate > 70%
 - [ ] Return viewer rate > 10% (building an audience)
 - [ ] Like-to-view ratio 4-8% (above 8% = emotional resonance)
+- [ ] New vs returning viewer split ~60/40
+
+### Niche & Positioning
+- [ ] Can a stranger describe what your channel is about in one sentence?
+- [ ] Your last 10 videos fit within 2-3 content pillars
+- [ ] You have a playlist strategy (4+ videos per playlist, no thin playlists)
+- [ ] Channel banner and description clearly communicate your niche
+- [ ] You've identified your "only I can make this" angle
 
 ### Packaging Quality (The 30/5 Gap)
 - [ ] Spending 30%+ of total time on packaging (titles, thumbnails, hooks)
@@ -481,11 +790,17 @@ Sunday:    Community post (preview of next video)
 - [ ] No same format back-to-back (rotation rule)
 
 ### SEO & Discovery
-- [ ] Every video has timestamps/chapters
+- [ ] Every video has timestamps/chapters (each chapter title is a mini hook)
 - [ ] Descriptions are 200+ words with natural keywords
 - [ ] Playlists have 4+ videos each (no thin playlists)
 - [ ] End screens point to relevant next video
 - [ ] Cross-posted 2+ clips to Reddit/TikTok/Reels this week
+
+### Monetization Health
+- [ ] 3+ revenue streams active or planned
+- [ ] Affiliate links in every relevant description
+- [ ] Sponsorship rate card ready (even if not actively pitching yet)
+- [ ] Email list growing (own your audience)
 
 ### Growth Habits
 - [ ] Replied to every comment in first 2 hours
@@ -493,6 +808,7 @@ Sunday:    Community post (preview of next video)
 - [ ] Studied YouTube 4+ hours this week (Galloway's rule)
 - [ ] Analyzed top 10% vs bottom 10% of recent videos
 - [ ] Reviewed retention graphs for exact drop-off points
+- [ ] Maintained sustainable production pace (not burning out)
 
 ---
 
@@ -512,6 +828,8 @@ Sunday:    Community post (preview of next video)
 - Scale comparisons (tiny person vs massive structure) = highest share rate
 - First-person testimony defeats propaganda accusations
 - Cost breakdowns ($X/day) = evergreen search
+- China travel content exploded **5x** in 2025 (2,420 videos vs 483 YoY)
+- China infrastructure channels pull 32M views/month
 
 ### Cross-Platform Distribution
 - **Reddit** (highest ROI): r/skiing, r/travel, r/japantravel, r/interestingasfuck, r/nextfuckinglevel. Native clips, link in comments when asked. 90% value / 10% promotion.
@@ -578,11 +896,21 @@ REDDIT:
 ## SOURCES
 
 This skill synthesizes knowledge from:
-- MrBeast's leaked 36-page production handbook ([PDF](https://cdn.prod.website-files.com/6623b7720b009050313e701c/66ede69453b7bbadcd2f05a8_How-To-Succeed-At-MrBeast-Production%20(2).pdf))
-- Paddy Galloway's consulting frameworks ([Colin & Samir interview](https://www.colinandsamir.com/resources/the-new-rules-of-youtube-from-paddy-galloway), [Marketing Examined](https://www.marketingexamined.com/blog/paddy-galloway-youtube-guide))
+- MrBeast's leaked 36-page production handbook ([PDF](https://cdn.prod.website-files.com/6623b7720b009050313e701c/66ede69453b7bbadcd2f05a8_How-To-Succeed-At-MrBeast-Production%20(2).pdf)) | [Benzinga analysis](https://www.benzinga.com/news/24/09/41018088/leaked-mrbeast-handbook-unveils-youtube-stars-secret-weapons-for-success-useful-guide-or-ignored-man) | [Fortune](https://fortune.com/2024/09/26/youtube-mrbeast-jimmy-donaldson-leaked-business-handbook-advice/)
+- Paddy Galloway's consulting frameworks ([Creator Science podcast](https://podcast.creatorscience.com/paddy-galloway-2/)) | [Channel Accelerator](https://accelerator.paddygalloway.com/)
 - Todd Beaupre / YouTube Growth Team ([Search Engine Journal](https://www.searchenginejournal.com/youtube-algorithm-myths-debunked-insights-from-the-growth-team/510091/))
+- Veritasium / Derek Muller ([Creator Handbook interview](https://www.creatorhandbook.net/inside-veritasium-an-interview-with-dr-derek-muller-12ad2351a4b3/)) | [Scientific American profile](https://www.scientificamerican.com/article/how-youtube-star-derek-muller-of-veritasium-is-challenging-scientific/)
+- YouTube algorithm deep dives: [vidIQ 2026 guide](https://vidiq.com/blog/post/understanding-youtube-algorithm/) | [Marketing Agent Blog](https://marketingagent.blog/2025/11/04/youtubes-recommendation-algorithm-satisfaction-signals-what-you-can-control/) | [OutlierKit updates](https://outlierkit.com/resources/youtube-algorithm-updates/)
+- YouTube Shorts strategy: [Shorts algorithm 2026](https://vocal.media/01/how-the-you-tube-shorts-algorithm-works-in-2026) | [InPress SEO strategy](https://www.inpressinternational.com/post/beyond-200-billion-daily-views-a-complete-shorts-seo-strategy-for-2026)
+- Monetization data: [Mediacube monetization stack](https://mediacube.io/en-US/blog/youtube-monetization) | [SubSub playbook](https://www.subsub.io/guides/the-youtube-monetization-playbook) | [CPM rates](https://upgrowth.in/youtube-cpm-overview-highest-paying-niches-2026/)
+- Niche selection: [OutlierKit niche guide](https://outlierkit.com/resources/youtube-niches-guide/) | [TubeBuddy niche selection](https://www.tubebuddy.com/blog/choosing-youtube-niche/) | [Shane Hummus RPM guide](https://shanehummus.com/youtube-growth/the-ultimate-guide-to-youtube-niche-selection-rpms-profitability-and-monetization-2025-edition/)
+- Analytics: [Retention graphs guide](https://virvid.ai/blog/retention-graphs-how-to-read-youtube-analytics-2026) | [Retention Rabbit benchmarks](https://www.retentionrabbit.com/blog/analyze-youtube-audience-retention-graph-free-tools)
+- Sponsorship negotiation: [InfluenceFlow guide](https://influenceflow.io/resources/youtube-sponsorship-negotiation-guide-how-to-land-lucrative-brand-deals-in-2026/) | [TubeBuddy pricing](https://www.tubebuddy.com/blog/how-much-to-charge-for-youtube-brand-deal-pricing-strategy/)
+- Content pillars: [Hero-Hub-Help framework](https://www.clipflow.co/blog/30CTIVOwect87iv9anTa1E/the-ultimate-guide-to-content-pillars-boost-your-youtube-channels-success) | [Socialync 2026 guide](https://www.socialync.io/blog/content-pillars-guide-2026)
 - Colin & Samir's creator economy research ([Playbook](https://www.colinandsamir.com/playbook))
 - Film Booth's growth system ([Creator Science](https://podcast.creatorscience.com/ed-lawrence/))
 - Ali Abdaal's 3-stage framework ([Ultimate Guide](https://aliabdaal.com/youtube/the-ultimate-guide-to-youtube/))
+- Community strategy: [Gyre community guide](https://gyre.pro/blog/how-can-the-youtube-community-tab-help-you-grow-in) | [Navigate Video](https://www.navigatevideo.com/news/a-guide-to-youtube-community-posts)
+- Upload timing: [Buffer data from 1.8M videos](https://buffer.com/resources/best-time-to-post-on-youtube/) | [iQfluence 325 campaigns](https://iqfluence.io/public/blog/best-time-to-post-on-youtube)
 - vidIQ CTR benchmark studies, 3M+ video title length study, Retention Rabbit 2025 benchmark report
-- Case studies: Yes Theory, Lost LeBlanc, Kara & Nate, Drew Binsky, Mark Wiens, Sarah Fay, Nico (China travel)
+- Case studies: Yes Theory, Lost LeBlanc, Kara & Nate, Drew Binsky, Mark Wiens, Sarah Fay, MKBHD, Nico (China travel)
