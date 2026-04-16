@@ -10,6 +10,8 @@ Built from the specific tactical knowledge of:
 - **Paddy Galloway's consulting frameworks** (CCN framework, TAM test, 30/5 time allocation gap, 6-question filter, Glance test)
 - **Todd Beaupre / YouTube's Growth Team** (5 separate recommendation systems, satisfaction-weighted discovery, Quality Click Ratio, the impression funnel)
 - **Veritasium (Derek Muller)** — PhD on science video effectiveness, curiosity gap engineering, counterintuitive hook design
+- **Film Booth / Ed Lawrence** — $4M+ revenue in 2.5 years from 370K subs via email list + niche monetization, 70/20/10 time split
+- **Ali Abdaal** — PD Matrix for niche selection, land-and-expand strategy, pre-planned titles before filming
 - **Case studies**: Yes Theory (0→9.7M), Lost LeBlanc (0→2.2M), Kara & Nate (0→4.4M), Ali Abdaal (0→6M), Drew Binsky (0→6.8M), Sarah Fay (0→119K via one Short), MKBHD (100 videos at 72 subs → 19M+)
 
 ## When to Activate
@@ -45,6 +47,14 @@ Trigger on: "youtube", "video title", "thumbnail", "youtube SEO", "content calen
 
 ### The 5-Filter Niche Framework
 
+### Ali Abdaal's PD Matrix (Passion-Demand)
+Plot every potential topic on a 2x2 matrix:
+- **Box 1 (Passion + Demand)**: Topics you love AND people search for. **This is your niche.**
+- **Box 2 (No Passion + Demand)**: Audience exists but you'll burn out. Avoid.
+- **Box 3 (Passion + No Demand)**: Hobby territory. Fun but won't grow.
+- **Box 4 (Neither)**: Don't even consider it.
+
+### The 5-Filter Validation
 Every viable YouTube niche must pass ALL five filters:
 
 | Filter | Test | Kill Signal |
@@ -62,6 +72,7 @@ Every viable YouTube niche must pass ALL five filters:
 3. **Competition quality check**: Watch the top 5 videos. Are they good? If existing content is mediocre, that's your opening. If it's excellent, you need a differentiated angle.
 4. **The "only I can make this" test**: What unique perspective, access, location, or expertise do you bring that existing creators don't?
 5. **RPM reality check**: High-RPM niches (finance $30+, tech $12-18, travel $10) can sustain smaller audiences. Low-RPM niches (gaming $3-6, entertainment $6-12) need massive scale.
+6. **Blue ocean signal**: Videos getting 100K+ views on channels with <5K subscribers = topic demand outstrips supply. This is the strongest validation signal on YouTube.
 
 ### Niche vs. Broad: The Expansion Path
 
@@ -130,7 +141,14 @@ YouTube moved from optimizing for engagement to **viewer satisfaction**:
 | **Satisfaction (surveys + inferred)** | ~15% | **~35%** |
 | Return sessions (7-day revisit) | ~10% | ~15% |
 
-**What "satisfaction" actually means:** YouTube now collects millions of post-watch survey responses asking viewers whether a video was worth their time. They also track: repeat viewing, session continuation (did the viewer keep watching YouTube after your video?), likes, "Not Interested" clicks, and comment sentiment.
+**What "satisfaction" actually means:** YouTube uses five internal metrics:
+- **Watch Satisfaction Score (WSS):** Composite of viewer surveys, retention quality, and positive sentiment
+- **Quality Click Ratio (QCR):** Satisfied viewers ÷ total clicks. High CTR + low QCR = clickbait detection
+- **Retention Delta (RD):** Your retention % minus category median. Positive = outperforming
+- **Viewer Loyalty Index (VLI):** Returning viewers within 7-30 days. Proxy for trustworthiness
+- **Session Continuity Rate (SCR):** % of viewers who keep watching YouTube after your video
+
+YouTube collects satisfaction data through: post-view surveys ("Was this worth your time?"), comment sentiment NLP, repeat viewing, "Not Interested" clicks, and session continuation patterns.
 
 **Quality Click Ratio (QCR):** YouTube divides satisfied viewers by total clicks. High CTR + low retention = clickbait detection = active demotion. Better to hold 70% of viewers for 6 minutes than 30% for 10 minutes. A shorter video that leaves viewers satisfied outperforms a longer video that viewers abandon.
 
@@ -146,6 +164,19 @@ YouTube moved from optimizing for engagement to **viewer satisfaction**:
 - First ~30 focused videos teach the algorithm what your channel IS
 - Traffic should evolve: 80% Search → gradually more Browse/Suggested as algorithm learns your audience
 - **Niche consistency matters**: The algorithm builds a "topic model" of your channel. Jumping between unrelated topics confuses it.
+- There is **no "penalty box"** per Todd Beaupre — channels are not punished for inactive periods. Evaluate metrics over 90+ day windows.
+- Todd Beaupre: *"The way it works is it isn't so much about pushing it out as much as it's pulling for each viewer. When you open the homepage, YouTube says 'Hey, [viewer] is here, we need to give them the best content that will make them happy today.'"*
+
+### Browse Feed Change (December 2025)
+- YouTube restructured Browse to show **only 2 long-form video slots** (down from ~12) — an 80% reduction
+- Remaining space prioritizes Shorts
+- This makes Shorts even more critical for discovery on new/small channels
+
+### AI Content Warning (January 2026)
+- YouTube executed largest mass AI channel termination: **4.7 billion views wiped**, 16 channels with 35M combined subscribers removed
+- Target: mass-produced, template-based content with minimal human oversight
+- **Properly disclosed AI-assisted content receives normal distribution** — the crackdown is on fully automated channels, not AI tools used by human creators
+- **Comments outweigh likes as a ranking signal** because they indicate time investment. Detailed conversations carry more weight than single-word responses.
 
 ### Shorts vs. Long-Form (Fully Decoupled Late 2025)
 - Separate recommendation engines — poor Shorts don't hurt long-form
@@ -474,6 +505,12 @@ Three metrics form the foundation: **CTR + Watch Time + Retention**. Everything 
 | Cross-platform | Repurpose to TikTok + Instagram Reels simultaneously |
 | Comments | Pin a comment linking to the full video |
 | Text on screen | YES for Shorts (unlike thumbnails) — many watch without sound |
+
+### Shorts Monetization Reality
+- Shorts RPM is **$0.01-$0.06 per 1,000 views** — drastically lower than long-form
+- Shorts are a **discovery tool, not a revenue tool**
+- 74% of Shorts views come from non-subscribers — primary discovery format
+- Long-form pays creators 55% of ad revenue; Shorts pay 45%
 
 ### Shorts That Drive Long-Form Growth
 - Shorts create **awareness**, long-form completes **conversion**
